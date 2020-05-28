@@ -10,6 +10,9 @@ int factorial(intp)
 {
 //insercion de codigo
 int factorial =1;
+for(int i=1;i<=p;i++)
+factorial=factorial*i;
+return factorial;
 return 0;
 }
 main()
